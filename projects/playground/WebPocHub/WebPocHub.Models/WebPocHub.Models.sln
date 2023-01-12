@@ -5,7 +5,9 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebPocHub.Models", "WebPocHub.Models.csproj", "{273112BF-F645-48B1-939E-BB91C6F4E095}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPocHub.Dal", "..\WebPocHub.Dal\WebPocHub.Dal.csproj", "{70E4A3E3-ACF7-479C-B33E-FD0E01D9A36E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebPocHub.Dal", "..\WebPocHub.Dal\WebPocHub.Dal.csproj", "{70E4A3E3-ACF7-479C-B33E-FD0E01D9A36E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebPocHub.WebApi", "..\WebPocHub.WebApi\WebPocHub.WebApi.csproj", "{1FCAE85F-0AAE-4DC5-B732-2105B768A21B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{70E4A3E3-ACF7-479C-B33E-FD0E01D9A36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70E4A3E3-ACF7-479C-B33E-FD0E01D9A36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70E4A3E3-ACF7-479C-B33E-FD0E01D9A36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FCAE85F-0AAE-4DC5-B732-2105B768A21B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FCAE85F-0AAE-4DC5-B732-2105B768A21B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FCAE85F-0AAE-4DC5-B732-2105B768A21B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FCAE85F-0AAE-4DC5-B732-2105B768A21B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
